@@ -25,5 +25,5 @@ jobs:
         uses: AthleticNet/comment-test-coverage@1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: tests/coverage/coverage-summary.json
+          path: /packages/swift-ui/tests/coverage/coverage-summary.json
           title: Test Coverage
