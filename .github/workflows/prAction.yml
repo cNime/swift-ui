@@ -26,4 +26,4 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path: /packages/swift-ui/tests/coverage/coverage-final.json
+          path-to-lcov: /packages/swift-ui/tests/coverage/lcov.info
